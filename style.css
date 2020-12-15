@@ -1,5 +1,5 @@
 /* globals */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -12,4 +12,34 @@ body {
   background: #09131b;
   color: #ffffff;
   min-height: 100vh;
+}
+
+/* header */
+.header {
+  background: #122331;
+  position: relative;
+  max-width: 80vw;
+  margin: auto; /* this will place the header in the middle. margin left and right will be 10vw */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
+}
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header ul {
+  list-style: none;
+}
+.logo {
+  font-size: 2rem;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+.menu-items li {
+  padding: 0.5rem 1rem;
 }
