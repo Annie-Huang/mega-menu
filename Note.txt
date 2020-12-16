@@ -7,3 +7,6 @@ https://github.com/Annie-Huang/mega-menu
 
 ====================================================================================
 
+.mega-menu>.content>.col>section>h2{Featured 1}+(a.img-wrapper>.img>img)+p>lorem5
+
+.col>section>h2{Featured 2}+ul.mega-links>li>a
