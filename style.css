@@ -60,6 +60,7 @@ body {
   left: 0;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.3s ease;
 }
 .menu-items {
   display: flex;
@@ -67,7 +68,7 @@ body {
   width: 100%;
 }
 .dropdown:hover .dropdown-menu {
-  top: 34px; /* Create the fade in effect because the initial value for top is 50px */
+  top: 34px; /* Create the fade in from bottom to top effect because the initial value for top is 50px */
   opacity: 1;
   visibility: visible;
 }
