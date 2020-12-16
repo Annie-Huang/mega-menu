@@ -104,6 +104,9 @@ body {
   width: 100%;
   justify-content: space-between;
 }
+.blog .content {
+  grid-template-columns: repeat(3, 1fr);
+}
 .content .col {
   display: flex;
   flex-direction: column; /* don't think we need this as there is only one child under .col */
@@ -142,6 +145,12 @@ body {
 }
 .content .col .mega-links {
   border-left: 1px solid #1a3246;
+}
+.content .col .read-more {
+  display: inline-block;
+  padding-top: 1rem;
+  color: #427dad;
+  transition: color 0.3s ease;
 }
 .col .mega-links li,
 .col .mega-links li a {
