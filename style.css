@@ -91,8 +91,8 @@ body {
   top: 80px;
 
   /* Similar to .dropdown-menu */
-  /* opacity: 0;  */
-  /* visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
   transition: all 0.3s ease;
 }
 .mega-menu .content {
@@ -142,6 +142,14 @@ body {
 .col .mega-links li,
 .col .mega-links li a {
   padding: 0 1rem;
+}
+
+/* only apply when you hover the Mega Menu column, 
+   when you hover other menu item, it won't have .mega-menu inside it */
+.menu-items li:hover .mega-menu {
+  top: 50px;
+  opacity: 1;
+  visibility: visible;
 }
 
 /* section */
