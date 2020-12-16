@@ -48,6 +48,30 @@ body {
   background-color: #ff652f;
 }
 
+/* dropdown */
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  background: #122331;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dropdown:hover .dropdown-menu {
+  top: 34px; /* Create the fade in effect because the initial value for top is 50px */
+  opacity: 1;
+  visibility: visible;
+}
+
 /* section */
 .section {
   position: absolute;
