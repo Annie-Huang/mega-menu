@@ -126,6 +126,10 @@ body {
 }
 .content .col img {
   width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.content .col .img-wrapper:hover img {
+  transform: scale(1.1);
 }
 .content .col h2 {
   color: #ff652f;
