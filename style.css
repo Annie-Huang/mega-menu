@@ -136,6 +136,13 @@ body {
 .content .col p {
   line-height: 1.2rem;
 }
+.content .col .mega-links {
+  border-left: 1px solid #1a3246;
+}
+.col .mega-links li,
+.col .mega-links li a {
+  padding: 0 1rem;
+}
 
 /* section */
 .section {
