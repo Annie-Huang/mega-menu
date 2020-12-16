@@ -52,7 +52,8 @@ body {
 .dropdown {
   position: relative;
 }
-.dropdown-menu {
+.dropdown-menu,
+.menu-right {
   position: absolute;
   background: #122331;
   width: 100%;
@@ -62,6 +63,10 @@ body {
   visibility: hidden;
   transition: all 0.3s ease;
 }
+.menu-right {
+  top: 0;
+  left: 110%;
+}
 .menu-item {
   display: flex;
   justify-content: space-between;
@@ -69,6 +74,11 @@ body {
 }
 .dropdown:hover .dropdown-menu {
   top: 34px; /* Create the fade in from bottom to top effect because the initial value for top is 50px */
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-right:hover .menu-right {
+  left: 100%; /* Create the fade in from right to left effect because the initial value for left is 110% */
   opacity: 1;
   visibility: visible;
 }
