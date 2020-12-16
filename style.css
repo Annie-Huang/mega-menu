@@ -62,7 +62,7 @@ body {
   visibility: hidden;
   transition: all 0.3s ease;
 }
-.menu-items {
+.menu-item {
   display: flex;
   justify-content: space-between;
   width: 100%;
