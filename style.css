@@ -265,4 +265,16 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+  .menu-items li {
+    margin: 15px 10px;
+  }
+  .menu-items li a {
+    padding: 0 1rem;
+    display: block;
+    font-size: 1.4rem; /* make all menu item text bigger */
+  }
+  .menu-items li:hover {
+    /* refer to line 47 */
+    background-color: transparent;
+  }
 }
