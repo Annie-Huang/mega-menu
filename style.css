@@ -234,3 +234,10 @@ body {
   transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
   background: #ffffff;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 970px) {
+  .menu-btn {
+    display: flex;
+  }
+}
