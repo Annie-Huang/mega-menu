@@ -320,4 +320,14 @@ body {
     margin-bottom: 0.5rem;
     border-top: 1px solid #1a3246;
   }
+  .mega-menu .content .col:nth-child(1) {
+    border-top: 0;
+  }
+  .content .col .mega-links {
+    border-left: 0;
+    padding-left: 1rem;
+  }
+  .col .mega-links li {
+    margin: 0;
+  }
 }
