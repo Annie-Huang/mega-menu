@@ -300,14 +300,24 @@ body {
   /* The below is targeting the same element as above but because it's cascading style sheet, the bottom will over write the top one */
   .expand-btn.open + .expandable {
     max-height: 100%;
-    transform: scaleY(
-      1
-    ); /* expand from top -> down, collapse from down -> top */
+    /* expand from top -> down, collapse from down -> top */
+    transform: scaleY(1);
   }
   .expandable li {
     margin: 0;
   }
   .expandable li a {
     font-size: 1rem;
+  }
+
+  .mega-menu .content {
+    grid-template-columns: auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .mega-menu .content .col {
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #1a3246;
   }
 }
