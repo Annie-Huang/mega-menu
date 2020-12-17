@@ -285,4 +285,8 @@ body {
 .menu-items .mega-menu {
   position: static; /* default position flow */
   opacity: 1;
+  top: 4rem; /* this does not have any effect since position is static: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+  visibility: visible;
+  padding-left: 1rem;
+  width: 100%;
 }
