@@ -278,3 +278,11 @@ body {
     background-color: transparent;
   }
 }
+
+/* DROPDOWN, MEGA MENUS */
+.menu-items .dropdown-menu,
+.menu-items .menu-right,
+.menu-items .mega-menu {
+  position: static; /* default position flow */
+  opacity: 1;
+}
