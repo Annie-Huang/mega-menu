@@ -240,4 +240,11 @@ body {
   .menu-btn {
     display: flex;
   }
+  .header .menu-items {
+    position: absolute;
+    /* 100% is referring to the height of the .header, not the .menu-items 
+       Basically it means set the height of the .menu-item to be 100vh - the height of .header
+    */
+    height: calc(100vh - 100%);
+  }
 }
